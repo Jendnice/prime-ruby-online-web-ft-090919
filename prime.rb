@@ -7,10 +7,12 @@ def prime?(int)
  elsif 
    int <= 0 
    false 
- elsif (int % 2) = 0 || int
-   false
- else
+ elsif (int % 2) = 0
    true 
+ elsif (int % 2) = int
+   false 
+ else
+   false 
  end
 end
  
