@@ -1,16 +1,11 @@
 def prime?(int)
 
  return false if int < 2 
- elsif int == 2 
-   true
- elsif (int % 2) == 0
-   false 
- else
-   true 
- end
+
 end
  
- (2..int/2)
+ (2..int/2).none? do |number| int % |number| == 0 end 
+ 
 def prime?(n)
   return false if n < 2
 
