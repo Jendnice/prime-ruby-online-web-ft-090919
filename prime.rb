@@ -8,11 +8,9 @@ def prime?(int)
    int <= 0 
    false 
  elsif (int % 2) = 0
-   true 
- elsif (int % 2) = int
    false 
  else
-   false 
+   true 
  end
 end
  
