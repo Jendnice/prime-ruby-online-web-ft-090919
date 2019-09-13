@@ -1,8 +1,6 @@
 def prime?(int)
 
- if int == 1 
-   true
- elsif int == 2 
+ if int == 2 
    true
  elsif 
    int <= 0 
