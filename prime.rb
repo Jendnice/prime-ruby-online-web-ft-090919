@@ -7,7 +7,7 @@ def prime?(int)
  elsif 
    int <= 0 
    false 
- elsif (int % 2) == 0
+ elsif (int % 2) = 0
    false 
  else
    true 
