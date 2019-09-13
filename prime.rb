@@ -1,13 +1,13 @@
 def prime?(int)
 
- if int = 1 
+ if int == 1 
    true
- elsif int = 2 
+ elsif int == 2 
    true
  elsif 
    int <= 0 
    false 
- elsif (int % 2) = 0
+ elsif (int % 2) == 0
    false 
  else
    true 
