@@ -1,12 +1,8 @@
 def prime?(int)
 
- return false if int < 2 if int == 1 
-   false
+ return false if int < 2 
  elsif int == 2 
    true
- elsif 
-   int <= 0 
-   false 
  elsif (int % 2) == 0
    false 
  else
@@ -14,7 +10,7 @@ def prime?(int)
  end
 end
  
- 
+ (2..int/2)
 def prime?(n)
   return false if n < 2
 
